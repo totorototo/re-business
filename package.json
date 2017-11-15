@@ -1,6 +1,6 @@
 {
   "name": "re-business",
-  "main": "dist/index.js",
+  "module": "lib/es6/src/index.js",
   "version": "0.1.8",
   "scripts": {
     "build": "bsb -make-world",
@@ -17,7 +17,7 @@
     "BuckleScript"
   ],
   "files": [
-    "dist"
+    "lib/es6/src"
   ],
   "license": "MIT",
   "devDependencies": {
