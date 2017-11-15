@@ -7,6 +7,6 @@ module.exports = {
     output: {
         path: path.join(__dirname, 'dist'),
         filename: '[name].js',
-        library: "re-business"
+        library: "reBusiness"
     }
 };
