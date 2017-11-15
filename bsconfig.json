@@ -3,6 +3,12 @@
 {
   "name": "re-business",
   "version": "0.1.0",
+  "package-specs": [
+    "commonjs",
+    "amdjs",
+    "es6"
+
+  ],
   "sources": [
     "src"
   ],

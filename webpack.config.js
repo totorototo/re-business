@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
     entry: {
-        index: './lib/js/src/index.js'
+        index: './lib/es6/src/index.js'
     },
     output: {
         path: path.join(__dirname, 'dist'),
