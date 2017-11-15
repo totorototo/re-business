@@ -1,6 +1,7 @@
 .DS_Store
 .merlin
 npm-debug.log
-/lib/bs/
+/lib/
+/bundleOutputs/
 /node_modules/
 .idea
