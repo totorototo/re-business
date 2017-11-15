@@ -17,7 +17,7 @@
   ],
   "files": [
     "dist",
-    "main.js"
+    "index.js"
   ],
   "license": "MIT",
   "devDependencies": {
