@@ -5,10 +5,19 @@
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
     "clean": "bsb -clean-world",
-    "webpack": "webpack"
+    "webpack": "webpack",
+    "patch": "npm version patch && npm publish",
+    "minor": "npm version minor && npm publish",
+    "major": "npm version major && npm publish",
+    "prepublish": "npm run build",
+    "postpublish": "git push origin master --follow-tags"
   },
   "keywords": [
     "BuckleScript"
+  ],
+  "files": [
+    "dist",
+    "main.js"
   ],
   "license": "MIT",
   "devDependencies": {

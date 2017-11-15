@@ -2,6 +2,6 @@
 .merlin
 npm-debug.log
 /lib/
-/bundleOutputs/
+/dist/
 /node_modules/
 .idea
