@@ -1,7 +1,7 @@
 {
   "name": "re-business",
   "main": "dist/index.js",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "scripts": {
     "build": "bsb -make-world",
     "start": "bsb -make-world -w",
